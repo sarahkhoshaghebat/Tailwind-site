@@ -13,4 +13,5 @@ function onTabClick(e) {
     e.target.classList.add('border-gray-400', 'border-b-4');
 
     const classString = e.target.getAttribute('data-target');
+    document.getElementById('panels').getElementsByClassName('classString')[0].classList.remove('hidden')
 }
